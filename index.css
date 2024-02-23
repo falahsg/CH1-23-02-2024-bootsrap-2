@@ -1,5 +1,5 @@
 body {
-    
+    font-family: Helvetica;
 }
 
 #title {
@@ -19,3 +19,44 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
+.feature {
+	border-right: 1px solid #e0e0e0;
+}
+
+.feature:last-child {
+	border: none;
+}
+
+.button-primary-outline {
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    border: 1px solid #933393;
+    border-radius: 8px;
+    align-items: ter;
+    padding: 17px 16px;
+    display: flex;
+}
+
+.link-block-20 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    text-decoration: none;
+    display: flex;
+}
+
+.carousel {
+	background-color: #F1F3FF;
+	width: 832px;
+	height: 382px;
+	/* margin: auto; */
+}
+
+.carousel-control-prev-icon {
+	background-image: url("img/arrow.svg");
+  }
+
+.carousel-control-next-icon {
+	background-image: url("img/arrowkanan.svg");
+  }
